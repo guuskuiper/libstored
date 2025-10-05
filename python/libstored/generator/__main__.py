@@ -284,7 +284,7 @@ def model_cname(model_file):
 def platform_win32():
     return sys.platform == 'win32'
 
-def spdx(license='MPL-2.0', prefix=''):
+def spdx(license='MPL-2.0', prefix='', copyright='2020-2023 Jochem Rutgers'):
     # REUSE-IgnoreStart
     return \
         f'{prefix}SPDX-FileCopyrightText: 2020-2025 Jochem Rutgers\n' + \
